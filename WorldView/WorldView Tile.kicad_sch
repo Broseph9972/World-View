@@ -2,9 +2,8680 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad)
+	(uuid "5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:WS2812B-2020"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B-2020"
+				(at 1.27 -5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+				(at 1.27 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf"
+				(at 2.54 -9.525 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller, 2.0 x 2.0 mm, 12 mA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*-2020_PLCC4*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B-2020_1_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "8 x 8 tile   /   serial pixel order"
+		(exclude_from_sim no)
+		(at 22.94 2.4 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "cbb141d2-54b5-45f2-96ee-313502b6c350")
+	)
+	(label "GND"
+		(at 222.94 129.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "002d252e-fce0-4044-9c10-6dec2a9bc9ef")
+	)
+	(label "P40"
+		(at 308.56 153.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "0063c6fd-6842-4a85-83c3-30f3d1357cb4")
+	)
+	(label "GND"
+		(at 144.94 97.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "00903356-ffaf-4e2d-ae59-386e2a53ade7")
+	)
+	(label "P4"
+		(at 152.56 25.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "011ed522-3a95-4d81-b3ba-64eed9767bf4")
+	)
+	(label "GND"
+		(at 27.94 193.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "01e49e16-de06-4b32-80d2-a8a3e2df5939")
+	)
+	(label "P39"
+		(at 293.32 153.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "034a6f63-8a57-4c2d-9cae-7f4e0d14319d")
+	)
+	(label "P46"
+		(at 254.32 185.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "0565cf61-3ca9-4cfa-9874-69c928e5016b")
+	)
+	(label "P39"
+		(at 269.56 153.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "068e9887-40ec-441b-bbad-e458af4b75e7")
+	)
+	(label "P58"
+		(at 74.56 249.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "07d69e92-340e-4c34-ab84-71fad908c37e")
+	)
+	(label "P46"
+		(at 230.56 185.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "08548c79-0ee1-4451-a2dc-b75a2c24d5ed")
+	)
+	(label "5V"
+		(at 66.94 17.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "091576d8-9de3-4cc8-a740-d58c0514e1c1")
+	)
+	(label "5V"
+		(at 183.94 17.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a116ffe-aaca-4e8a-b136-bfab4b02c0d5")
+	)
+	(label "GND"
+		(at 87.86 294.94 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b8a0a27-60e5-4a3b-893c-f9a436435804")
+	)
+	(label "5V"
+		(at 66.94 49.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c5922ca-e989-4c74-a8a4-7c8c30bb0d33")
+	)
+	(label "P11"
+		(at 137.32 57.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c9ea6c7-3ecc-410a-912f-1f4b5e050b1a")
+	)
+	(label "P54"
+		(at 254.32 217.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "0fec999a-e38a-4ea8-8e78-dd5ab5bc298f")
+	)
+	(label "P33"
+		(at 59.32 153.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "1090284e-f79a-4579-97d6-d3a6529cb34c")
+	)
+	(label "P51"
+		(at 137.32 217.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "10a57922-7c6f-449c-88e4-f5fa752fb14f")
+	)
+	(label "P1"
+		(at 59.32 25.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "1163d0ce-c65d-4212-adcf-1ad8caa17030")
+	)
+	(label "GND"
+		(at 147.86 294.94 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "117f3020-c300-47af-82e2-e45f56c902c9")
+	)
+	(label "5V"
+		(at 300.94 177.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "13b61ec4-0523-4040-957a-dc6d994d04f7")
+	)
+	(label "P30"
+		(at 254.32 121.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "14a7f0a5-8047-4f06-b059-2c8ccfcc8b99")
+	)
+	(label "GND"
+		(at 66.94 161.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "15d707ec-b962-4833-96f4-d27a99d74456")
+	)
+	(label "P13"
+		(at 191.56 57.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "16153f49-c08a-4ec3-83f7-02d0c6602415")
+	)
+	(label "5V"
+		(at 144.94 17.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "16dcb5b6-b4a7-4431-a785-d7eaaa5296b9")
+	)
+	(label "P41"
+		(at 35.56 185.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "182e7d70-6952-45da-87b1-42b3bb8ad6ef")
+	)
+	(label "P34"
+		(at 98.32 153.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "18a3f9c4-a7df-48e0-b3cb-062ca599533f")
+	)
+	(label "GND"
+		(at 300.94 129.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a57b9b3-85cc-45f9-b0b9-74ac8713c6a0")
+	)
+	(label "P42"
+		(at 98.32 185.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ae4af74-4c78-4626-892a-aa172afdfd07")
+	)
+	(label "5V"
+		(at 261.94 17.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bd9e49b-d1a3-43f1-a7cb-5591f99e01a1")
+	)
+	(label "5V"
+		(at 66.94 81.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c0552b6-ee28-4f28-9d20-5c127afa21aa")
+	)
+	(label "P9"
+		(at 59.32 57.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c61cd21-1533-425a-93d2-4c0f3287dd85")
+	)
+	(label "P7"
+		(at 293.32 25.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "1dad3249-cc1f-4a3a-ad37-637cd5ed1de6")
+	)
+	(label "5V"
+		(at 66.94 145.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e2f2bc7-253e-4c5e-9977-d6f15e5e1ba3")
+	)
+	(label "P35"
+		(at 113.56 153.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f05299b-cb40-4033-bef6-371f8da9a2c5")
+	)
+	(label "GND"
+		(at 66.94 257.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fe5796d-0ab9-444c-8a0d-f8ea8168d6fe")
+	)
+	(label "P49"
+		(at 59.32 217.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "209aee29-af4f-4ff4-8ccf-3a53c72fb3f5")
+	)
+	(label "P1"
+		(at 35.56 25.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "20cad908-e66d-4007-bee8-93f6b6d0e3f0")
+	)
+	(label "P61"
+		(at 191.56 249.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2110afdb-a69b-4d41-be5d-cf820dfb53f0")
+	)
+	(label "P38"
+		(at 254.32 153.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "222d576c-c2d9-4cbb-b1e4-d8dd2fc83c0a")
+	)
+	(label "P36"
+		(at 152.56 153.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "230e9643-7e9f-43b3-9411-5b243154bd95")
+	)
+	(label "P10"
+		(at 98.32 57.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "231d2336-2919-4de8-9908-89be7ded91f7")
+	)
+	(label "5V"
+		(at 27.94 145.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "235222c3-81b1-4f44-8e92-a29ed5997dbe")
+	)
+	(label "GND"
+		(at 105.94 225.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2383274d-7d77-4f3f-8a19-4a723fe258fd")
+	)
+	(label "P3"
+		(at 113.56 25.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "24bc8e42-f55c-46dc-9b4f-f0d720b5238c")
+	)
+	(label "GND"
+		(at 222.94 257.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2698b796-511f-4579-a60c-c02d6cdf6d51")
+	)
+	(label "GND"
+		(at 144.94 65.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a6eb3b4-c2a8-42ba-a852-6b76283e62b6")
+	)
+	(label "GND"
+		(at 27.94 161.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b6878c4-c54e-4b4b-996f-805f87dd87f1")
+	)
+	(label "GND"
+		(at 183.94 225.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bbf1919-7ba9-4806-926e-885135074a9a")
+	)
+	(label "P31"
+		(at 293.32 121.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c03e4b0-7fc6-4dd4-848a-316e50d88c32")
+	)
+	(label "5V"
+		(at 300.94 17.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d4adea3-a9af-483b-8c9b-29d6b5d883fc")
+	)
+	(label "P20"
+		(at 152.56 89.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ea64c30-3c80-414a-b1b9-0a4e50e96bd1")
+	)
+	(label "5V"
+		(at 222.94 145.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f1218b6-9762-41c5-ac54-0db4eaa560f4")
+	)
+	(label "P16"
+		(at 20.32 89.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "2fb8194c-1b41-4d11-9390-02b392e4b54c")
+	)
+	(label "GND"
+		(at 144.94 129.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "30492e8d-c918-4e68-a364-003b79d84566")
+	)
+	(label "5V"
+		(at 261.94 81.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "313338a3-d950-4996-80fa-4ab768cd632e")
+	)
+	(label "P21"
+		(at 215.32 89.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "3216533d-4cc1-4de3-a69a-69047c71bf81")
+	)
+	(label "5V"
+		(at 144.94 81.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3422f2e4-77f7-48db-9afa-12c90df132f4")
+	)
+	(label "P27"
+		(at 137.32 121.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "34799e0e-8690-47d3-9891-61b870001c5d")
+	)
+	(label "5V"
+		(at 66.94 177.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "34f378ff-d7ca-4912-bcf5-aa5b1ad844f1")
+	)
+	(label "P5"
+		(at 215.32 25.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "351fa7cb-a444-4aaa-aacf-c98310e50387")
+	)
+	(label "P52"
+		(at 176.32 217.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "35591857-17ae-4629-a9f4-56574ff99f5f")
+	)
+	(label "GND"
+		(at 144.94 257.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "361bb0f5-f36d-4235-9de0-ff9c68ee515b")
+	)
+	(label "GND"
+		(at 222.94 97.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3705b64c-b89d-4898-bbc4-a0b5fa2d4465")
+	)
+	(label "5V"
+		(at 222.94 177.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "37e5bb05-ae3a-4011-a80d-2218ddb3129d")
+	)
+	(label "DOUT"
+		(at 87.86 292.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "387dd692-e114-4158-98c9-7a339f0a457c")
+	)
+	(label "GND"
+		(at 105.94 129.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "39e89b73-233b-43b7-9b7b-01207b93d919")
+	)
+	(label "5V"
+		(at 27.94 17.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d321f8a-160a-4150-a4da-a3243ac2dda0")
+	)
+	(label "P22"
+		(at 230.56 89.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3de0cbc6-f19c-46f6-8b30-3502ba4cbc3a")
+	)
+	(label "P38"
+		(at 230.56 153.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e932d36-65d0-498f-a5fb-18a64e4d71ca")
+	)
+	(label "GND"
+		(at 300.94 33.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "3fd04ab3-bc26-4bcd-b229-2183c828220c")
+	)
+	(label "5V"
+		(at 144.94 177.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4237ddf6-c41c-4d8e-9637-d81f5a45da10")
+	)
+	(label "GND"
+		(at 27.94 257.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4288b985-086e-479c-9917-42a6c96f2d5b")
+	)
+	(label "5V"
+		(at 105.94 177.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4439b1dd-58fe-4c96-a620-d29c98c0b1a8")
+	)
+	(label "5V"
+		(at 27.94 177.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "46c802f2-707f-4683-b00e-f66412830d1f")
+	)
+	(label "5V"
+		(at 27.94 113.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "47aa7bc1-4b68-4073-ade9-d85d221ca4f9")
+	)
+	(label "P62"
+		(at 230.56 249.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4860c74c-fd06-4e4e-b7ab-c174c291d56d")
+	)
+	(label "P37"
+		(at 191.56 153.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4986ec5e-acc0-4be0-b427-671bbc54af72")
+	)
+	(label "GND"
+		(at 183.94 257.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "49f9811b-34ac-44ec-87e6-6a70bd739b0e")
+	)
+	(label "5V"
+		(at 261.94 49.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a287674-3a0c-49a2-a84a-a2b5658762df")
+	)
+	(label "P50"
+		(at 98.32 217.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "4aad6632-7b99-4f83-8a95-3f0b6c58f6c2")
+	)
+	(label "P12"
+		(at 176.32 57.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ac26ab7-d457-4ca7-9185-49cd7e19592b")
+	)
+	(label "P47"
+		(at 269.56 185.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4be06800-f5bc-4d45-8eda-fa8f60ad810d")
+	)
+	(label "GND"
+		(at 27.86 294.94 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c20041f-c863-45d9-9202-9882d13564cd")
+	)
+	(label "P24"
+		(at 20.32 121.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ce1224d-feb5-40bf-9268-d056d734b4b1")
+	)
+	(label "P49"
+		(at 35.56 217.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4da51209-6525-4a90-958a-13b8c0525d84")
+	)
+	(label "GND"
+		(at 66.94 97.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dc898d6-ffb8-4389-99da-9b9019038b8c")
+	)
+	(label "P6"
+		(at 230.56 25.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f3a4ea8-343c-483c-a270-8180ac5fb297")
+	)
+	(label "GND"
+		(at 222.94 225.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "509e2121-23bb-44d1-acbc-95ad3ca918cd")
+	)
+	(label "GND"
+		(at 144.94 193.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "50b67b0c-d3be-49d7-a0d9-3a28b4ab85c9")
+	)
+	(label "5V"
+		(at 105.94 241.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5101adba-cd18-4566-9b94-a6668c62c68e")
+	)
+	(label "GND"
+		(at 300.94 65.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "514c5c98-122f-4af4-98e5-146da3e17863")
+	)
+	(label "GND"
+		(at 261.94 257.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "520a163e-ab06-4def-9edb-19c3de644f2f")
+	)
+	(label "5V"
+		(at 105.94 17.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "52f26335-a0aa-4454-a191-ffd2c08c89b8")
+	)
+	(label "P2"
+		(at 98.32 25.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "5307a87c-2eb1-4889-98d7-e3c94ab41d98")
+	)
+	(label "5V"
+		(at 222.94 81.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "53e075b6-d38a-44e4-914c-825ef3d1dce8")
+	)
+	(label "5V"
+		(at 105.94 209.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "53f7d101-3004-48f3-a614-8a96ba80e317")
+	)
+	(label "GND"
+		(at 27.94 33.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "54aaa507-86d4-4da6-85f3-b80043d6fad2")
+	)
+	(label "P47"
+		(at 293.32 185.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "56c80f19-ab48-4514-9c06-f9f7f7e9179b")
+	)
+	(label "P53"
+		(at 215.32 217.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "59f49bee-e3ab-4a15-8efc-5d6f650515f5")
+	)
+	(label "GND"
+		(at 144.94 33.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b3c7dd7-278a-410d-b1c8-3383d622f588")
+	)
+	(label "GND"
+		(at 222.94 193.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b61ab3c-1a57-41f8-b130-23e70a93d2ba")
+	)
+	(label "P36"
+		(at 176.32 153.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b71c466-4972-4096-95ca-9e977ac8a7af")
+	)
+	(label "P17"
+		(at 35.56 89.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5dd55a83-8a20-44a5-af5c-fde5cff22c82")
+	)
+	(label "P19"
+		(at 137.32 89.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "5edf9fac-3100-4ec1-b296-c17faccf15af")
+	)
+	(label "GND"
+		(at 66.94 129.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f3c961c-2996-432b-a796-48c7e900acd0")
+	)
+	(label "P33"
+		(at 35.56 153.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "63247290-23e6-4e37-8ec0-0c0e0bba6974")
+	)
+	(label "GND"
+		(at 222.94 33.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "637b0c6d-c1c3-4e03-8059-9dea5f9f8557")
+	)
+	(label "P18"
+		(at 98.32 89.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "6458987b-ac32-4b36-9721-843d95c1166c")
+	)
+	(label "P54"
+		(at 230.56 217.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "68aae861-716c-4105-9214-40de04f2f189")
+	)
+	(label "P58"
+		(at 98.32 249.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b1d41cb-7f59-4c38-9aa5-13eb4a172565")
+	)
+	(label "5V"
+		(at 300.94 81.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6bede09c-d506-4f76-aa53-8ce5bb3f1c6c")
+	)
+	(label "GND"
+		(at 300.94 193.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c5fba60-5834-4a20-9004-d7f76aff61f5")
+	)
+	(label "GND"
+		(at 66.94 33.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d1963e3-ce0f-4d87-a090-ed76c54b7171")
+	)
+	(label "GND"
+		(at 144.94 225.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d514210-a9a8-421d-8f75-71263d3c2500")
+	)
+	(label "P29"
+		(at 191.56 121.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d536794-d417-4be4-84a1-9c160f9858b9")
+	)
+	(label "5V"
+		(at 300.94 241.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ed832e8-4cc8-4f06-9d6e-41fe9624567a")
+	)
+	(label "GND"
+		(at 183.94 129.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fed8c80-31dc-4dbe-be01-b94c32bc833c")
+	)
+	(label "P25"
+		(at 59.32 121.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "70c3b060-2332-47c6-97e2-7874974c085b")
+	)
+	(label "P13"
+		(at 215.32 57.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "73d8b7a7-fec4-4d5b-b5b6-b8297dd989e4")
+	)
+	(label "P48"
+		(at 20.32 217.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "74d7542c-67c6-4c94-8adb-571eeef24a31")
+	)
+	(label "P30"
+		(at 230.56 121.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "75aab407-4322-4ca5-af77-e5e9e34e95a2")
+	)
+	(label "P15"
+		(at 293.32 57.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "75ce054a-abd1-4cf8-b204-e1052fd000a0")
+	)
+	(label "P4"
+		(at 176.32 25.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "75eaca6f-8449-414e-be1e-b19f6dbca881")
+	)
+	(label "GND"
+		(at 300.94 97.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "76f9ace7-ebd9-4858-b534-96fdc43f571a")
+	)
+	(label "P55"
+		(at 293.32 217.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "782dd565-d497-4e2d-a8d2-0be5c67b30a5")
+	)
+	(label "P32"
+		(at 20.32 153.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "7891a282-ccf0-4bb5-932a-3127be06cf83")
+	)
+	(label "GND"
+		(at 105.94 161.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "79fab4c1-a457-46f3-bc29-827e61200737")
+	)
+	(label "P43"
+		(at 137.32 185.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ac21c50-6826-4d12-b7c2-340a4aabfe24")
+	)
+	(label "P61"
+		(at 215.32 249.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "7cb06494-a139-45f2-8562-2d67ce9c0d09")
+	)
+	(label "P28"
+		(at 152.56 121.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ddebcc6-e400-4646-ba03-d2a4082ed985")
+	)
+	(label "P55"
+		(at 269.56 217.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e603cb4-ad65-4c6b-95df-d9c62f7a872d")
+	)
+	(label "GND"
+		(at 66.94 193.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "7eb9c68b-68b2-45c4-95c9-fb7bca891a09")
+	)
+	(label "GND"
+		(at 27.94 97.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fad5fa8-755a-4ebf-a852-ea9b49a056e0")
+	)
+	(label "5V"
+		(at 300.94 49.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "81d5c9ea-c97b-48f1-a864-9e85ce7d8d8d")
+	)
+	(label "5V"
+		(at 222.94 113.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "82a503c0-fe2a-4240-abeb-fda991778a87")
+	)
+	(label "5V"
+		(at 144.94 49.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "84140401-e156-46aa-a2d9-daf7b9d8f818")
+	)
+	(label "P16"
+		(at 308.56 57.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "842ac451-1de9-4184-b64a-d5bcd3af2da1")
+	)
+	(label "GND"
+		(at 300.94 161.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "8451c0e8-8b39-4b41-8d0c-9e282da3daf8")
+	)
+	(label "P45"
+		(at 215.32 185.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "84649dc7-e458-4d17-a4cd-e12ac0bcf333")
+	)
+	(label "5V"
+		(at 66.94 209.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "85de32ab-d210-41cb-9988-484e53789162")
+	)
+	(label "5V"
+		(at 261.94 113.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "86b6dd97-d856-46b3-bbe8-1eadac8f44b6")
+	)
+	(label "P28"
+		(at 176.32 121.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "882b1f53-d133-4898-b013-484f67e9ef79")
+	)
+	(label "GND"
+		(at 183.94 161.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "897c6f80-e79a-4ca1-bd84-e7dd8e334b25")
+	)
+	(label "P35"
+		(at 137.32 153.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c2fca05-e511-4150-aee8-057cc2054e52")
+	)
+	(label "P23"
+		(at 269.56 89.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d3f44f2-635a-48a7-aee2-4db63afc523e")
+	)
+	(label "GND"
+		(at 261.94 161.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "8de17944-200e-48cc-9b6e-a55d184842ec")
+	)
+	(label "5V"
+		(at 222.94 17.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e7842c2-a3cb-4021-9784-833cf7c7768a")
+	)
+	(label "DOUT"
+		(at 308.56 249.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ea7f683-d906-403b-ace2-83c27231880e")
+	)
+	(label "GND"
+		(at 105.94 257.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f052862-4126-4ad2-9396-61555948a4c1")
+	)
+	(label "5V"
+		(at 261.94 209.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9006aa8b-f68f-4a99-9169-8f7dce5ef060")
+	)
+	(label "P44"
+		(at 176.32 185.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "91188cb8-ee6a-42e9-aec7-1e6679a708f5")
+	)
+	(label "P40"
+		(at 20.32 185.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "914cbb02-c535-416e-a61d-aa92ffe75fcd")
+	)
+	(label "5V"
+		(at 183.94 177.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "92b22c99-0db2-470e-836f-0d4e22a30d72")
+	)
+	(label "P60"
+		(at 176.32 249.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "9318a3d0-d6d7-4374-98ff-dfdeee053917")
+	)
+	(label "5V"
+		(at 144.94 209.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "93b0bf73-0c03-4f80-8cf7-efc6cae38085")
+	)
+	(label "GND"
+		(at 27.94 65.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9438a77a-d33e-4783-9989-217a5b8eec6e")
+	)
+	(label "5V"
+		(at 105.94 113.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "95a68e10-8cec-4ad9-8f63-9a9d67c3f09c")
+	)
+	(label "5V"
+		(at 144.94 241.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "95bdf018-124c-4b3a-9801-00bb3ab71282")
+	)
+	(label "P56"
+		(at 308.56 217.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "965b7a1d-1615-4d7b-a926-e4124e333885")
+	)
+	(label "GND"
+		(at 105.94 97.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "982cca70-ecef-4c40-b1e1-100fced55aba")
+	)
+	(label "5V"
+		(at 183.94 145.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "99289618-db09-4f17-aff4-82d40b29bba0")
+	)
+	(label "P31"
+		(at 269.56 121.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a467d32-590c-4f11-b105-94a2e684e602")
+	)
+	(label "P19"
+		(at 113.56 89.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a9f7a4e-2da2-49f8-805d-1b72c751523c")
+	)
+	(label "GND"
+		(at 183.94 193.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d998336-2bcb-4ac4-9b41-e85bf4f40c7d")
+	)
+	(label "P15"
+		(at 269.56 57.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e8bf9d0-e1db-472b-82b6-b38ce0a0e4f0")
+	)
+	(label "GND"
+		(at 183.94 65.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a347b551-4e02-4092-8495-1857b8cba6c0")
+	)
+	(label "5V"
+		(at 300.94 209.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a42da24a-b372-49fa-a20a-d0dfd2d4f6ec")
+	)
+	(label "P6"
+		(at 254.32 25.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4863bf6-5272-4d25-b6d7-43e7f5d5e5d3")
+	)
+	(label "P29"
+		(at 215.32 121.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "a52739a3-7742-4a9a-bedf-b4de0ca09126")
+	)
+	(label "5V"
+		(at 27.94 49.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5410000-2e4a-4323-85cf-f133ba184b09")
+	)
+	(label "5V"
+		(at 147.86 292.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "a9bd9a7e-da04-48dc-b400-97042d7701d1")
+	)
+	(label "P18"
+		(at 74.56 89.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa17c61d-56a0-48da-9389-fac0ec735311")
+	)
+	(label "5V"
+		(at 27.94 81.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad04959f-569f-47b9-8354-b20d9aa1e0c7")
+	)
+	(label "P50"
+		(at 74.56 217.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad0c26d3-846e-4c66-9910-7d9ad0afa412")
+	)
+	(label "P59"
+		(at 137.32 249.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "adaed0b0-527d-4a5e-ad6c-61e1cec930f5")
+	)
+	(label "P34"
+		(at 74.56 153.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "adcd5783-092c-4bc2-909b-ad155b968798")
+	)
+	(label "5V"
+		(at 183.94 49.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae709eba-7331-4d55-8d1f-e573427ffd89")
+	)
+	(label "GND"
+		(at 66.94 65.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae7a4ab3-c336-46d8-9479-7cc474385c09")
+	)
+	(label "P32"
+		(at 308.56 121.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "afac3e3e-8424-4587-977f-5a75899579a0")
+	)
+	(label "5V"
+		(at 300.94 113.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0439868-2112-4017-a7bf-213434cfa2dc")
+	)
+	(label "GND"
+		(at 222.94 65.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b154ea5b-bfc6-4a22-bc97-b16bd4b0d103")
+	)
+	(label "P57"
+		(at 35.56 249.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b252b494-1ae1-421f-bd4b-d3def6ee3d00")
+	)
+	(label "GND"
+		(at 222.94 161.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b540e8bf-2563-450a-abc8-b553a939f148")
+	)
+	(label "P62"
+		(at 254.32 249.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "b55d85dc-6ffc-42ae-89db-dacb58866ab9")
+	)
+	(label "5V"
+		(at 105.94 145.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b730fe5c-5085-4aa8-a1ef-6585781706c7")
+	)
+	(label "P2"
+		(at 74.56 25.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7a029bb-c734-49e1-b46f-17647e5bf0de")
+	)
+	(label "5V"
+		(at 66.94 113.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7c390a6-1c1b-420e-ac40-3e00ed8ea61d")
+	)
+	(label "P9"
+		(at 35.56 57.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7f39e1b-93a9-4c81-a3e2-a5dc01cf5b7e")
+	)
+	(label "P63"
+		(at 269.56 249.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba32f683-a615-491c-ac68-95b7d30d8afb")
+	)
+	(label "P59"
+		(at 113.56 249.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb0fd84b-e542-443a-ad54-6fa9b1a73a32")
+	)
+	(label "P37"
+		(at 215.32 153.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcdea39e-5364-4e8e-8d42-9b7b981fb160")
+	)
+	(label "GND"
+		(at 261.94 33.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "bdff67c2-081f-4b61-b812-f63cc6c87191")
+	)
+	(label "5V"
+		(at 66.94 241.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0935d9e-dbce-4453-96e6-e7aaec20a4ce")
+	)
+	(label "P45"
+		(at 191.56 185.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1e2e0cb-c919-4daf-9f70-b3d5f34a5c93")
+	)
+	(label "P48"
+		(at 308.56 185.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2b5e768-9285-4f5d-bbd7-1faa23cf794b")
+	)
+	(label "P52"
+		(at 152.56 217.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c32c2ca9-2e3a-4030-93ae-d446906dbaeb")
+	)
+	(label "5V"
+		(at 222.94 49.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4cc5127-7ee0-45d8-bdc5-34f70a12a11c")
+	)
+	(label "DIN"
+		(at 20.32 25.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4d578ef-8e54-475d-8f5d-844d68f3bde0")
+	)
+	(label "GND"
+		(at 27.94 129.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5738517-d6d4-4317-b3c4-60cf4a4a65d1")
+	)
+	(label "P17"
+		(at 59.32 89.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "c5c56483-2581-4fbe-b65e-d77ef5dc24e4")
+	)
+	(label "P23"
+		(at 293.32 89.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "c62c566e-b240-42e9-8b8e-e27824128a00")
+	)
+	(label "5V"
+		(at 183.94 81.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7424528-a8b7-4edc-b11c-e2bf1b4d21f3")
+	)
+	(label "P57"
+		(at 59.32 249.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8e8780e-966e-4b0e-9f24-0dfeeba8da0e")
+	)
+	(label "P27"
+		(at 113.56 121.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c98498aa-873b-48af-a5d4-d92a9b47fe9e")
+	)
+	(label "P56"
+		(at 20.32 249.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9d8441c-3bcd-45e5-a78e-00ef4c56b957")
+	)
+	(label "P63"
+		(at 293.32 249.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb10521c-0681-47ce-87cb-30285179763d")
+	)
+	(label "GND"
+		(at 261.94 65.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "cce210f1-97c5-4743-9342-8668572ef63f")
+	)
+	(label "GND"
+		(at 300.94 225.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdc7c6b9-7708-4f1a-b4ef-3fe4b6911c52")
+	)
+	(label "GND"
+		(at 27.94 225.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfaab510-c814-45e5-b3c0-b26516f22f1e")
+	)
+	(label "GND"
+		(at 261.94 129.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfeee956-5550-4094-b19c-f269971b50bc")
+	)
+	(label "5V"
+		(at 222.94 241.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0ebc07b-0eee-4b9e-adf8-21ff2ab6c8c8")
+	)
+	(label "GND"
+		(at 105.94 193.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d109946f-ccb6-49cb-b6aa-10a1aa8a661a")
+	)
+	(label "5V"
+		(at 27.94 241.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1dca6f3-45fe-4c05-a685-e8ee0d1f7bb2")
+	)
+	(label "5V"
+		(at 300.94 145.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2725821-504e-447c-ab97-2cb35e39f3f8")
+	)
+	(label "5V"
+		(at 144.94 145.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2b353b0-ee6a-411b-8a44-7d5c1324eadb")
+	)
+	(label "GND"
+		(at 144.94 161.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2cac067-f7e4-4bef-bc89-ae76d7015e69")
+	)
+	(label "P14"
+		(at 230.56 57.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d342fc7f-a414-4f4e-bb70-d26ac0612547")
+	)
+	(label "P41"
+		(at 59.32 185.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "d518bd63-6b24-4aef-8550-9c7b4504e9f8")
+	)
+	(label "P53"
+		(at 191.56 217.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d698bf66-2986-49ac-bd4f-924cc63c3dc3")
+	)
+	(label "P44"
+		(at 152.56 185.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6d25420-d3cf-4e85-a6fc-eff45ab37eae")
+	)
+	(label "5V"
+		(at 183.94 113.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d788aada-34e9-463d-97c0-09d76d09b381")
+	)
+	(label "P22"
+		(at 254.32 89.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7f4bdfc-c62e-4b5a-8067-65385587e6ab")
+	)
+	(label "P24"
+		(at 308.56 89.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7fd39cd-718a-4e39-b043-5ba7cc0a313e")
+	)
+	(label "P8"
+		(at 308.56 25.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d855c634-7d8d-4b00-aacf-cc45836d5799")
+	)
+	(label "P51"
+		(at 113.56 217.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8700038-1f2b-489c-826e-5e48f037254f")
+	)
+	(label "P3"
+		(at 137.32 25.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9be8233-8b89-4737-a34b-aa916a1123ba")
+	)
+	(label "GND"
+		(at 261.94 193.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9cff8e2-3e78-4b32-ba7f-0a4c03a0b98b")
+	)
+	(label "P5"
+		(at 191.56 25.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "da6f25c3-aecd-48ee-8112-da376ecb3fbc")
+	)
+	(label "5V"
+		(at 183.94 241.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbbf4c44-e5a7-457f-952d-ced10b479612")
+	)
+	(label "GND"
+		(at 105.94 65.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd63d7ef-6605-482c-8dd6-358421823778")
+	)
+	(label "P7"
+		(at 269.56 25.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ded48eb5-e2a0-477e-80c5-598ba88aa43f")
+	)
+	(label "GND"
+		(at 261.94 97.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e20f385c-48d7-4b43-8724-7bb68f41eb76")
+	)
+	(label "GND"
+		(at 183.94 97.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6f0af05-b0e5-42a5-89ae-8891e01bb620")
+	)
+	(label "5V"
+		(at 105.94 81.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e70020a5-3801-48ee-941b-b779a675045c")
+	)
+	(label "DIN"
+		(at 27.86 292.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "e79c04de-8a3d-4f97-ae01-5a8c2f67a990")
+	)
+	(label "GND"
+		(at 183.94 33.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8aced8a-b43f-4781-a9dc-9005bbdcabd4")
+	)
+	(label "P42"
+		(at 74.56 185.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8c23794-1761-4176-a206-c89229600273")
+	)
+	(label "GND"
+		(at 66.94 225.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8f02668-f884-4bd3-9477-6400469740ea")
+	)
+	(label "P11"
+		(at 113.56 57.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8f5afae-09ad-4162-be50-f8d851d8be4e")
+	)
+	(label "5V"
+		(at 261.94 177.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e9041515-e574-4af2-8b9e-0123753c361d")
+	)
+	(label "P26"
+		(at 74.56 121.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e966dc59-3fa8-47cb-a144-c191b9313101")
+	)
+	(label "P43"
+		(at 113.56 185.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e98a2cde-2521-4d9c-9d95-f95a3063b260")
+	)
+	(label "5V"
+		(at 183.94 209.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea3f857e-2f9e-4fc5-814b-954293ae9a31")
+	)
+	(label "P20"
+		(at 176.32 89.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea45aa22-4da4-409f-9155-026b845cef41")
+	)
+	(label "P25"
+		(at 35.56 121.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecd7ace3-5772-426e-bbfc-02f5b835d240")
+	)
+	(label "P10"
+		(at 74.56 57.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef131139-e9c5-445e-86f0-40f15a130605")
+	)
+	(label "5V"
+		(at 222.94 209.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f09daea6-c425-479e-a273-e5772c56ab0c")
+	)
+	(label "P12"
+		(at 152.56 57.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1042de5-1bd2-4cb2-8136-6575b1c7da86")
+	)
+	(label "GND"
+		(at 261.94 225.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f32c2afd-4840-49bc-bd15-fff56e07471b")
+	)
+	(label "GND"
+		(at 300.94 257.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f61cfcf6-9c59-479b-a530-2641e74f52c2")
+	)
+	(label "P26"
+		(at 98.32 121.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "f66fe539-389a-475c-8f1a-0e7f6fece254")
+	)
+	(label "5V"
+		(at 27.94 209.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f76a3892-e9fb-4637-b29f-82b626a757a2")
+	)
+	(label "P60"
+		(at 152.56 249.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7816935-8bc8-4c52-bec9-a86de56b0147")
+	)
+	(label "GND"
+		(at 105.94 33.02 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f7cd66e0-ece8-4b15-b7e2-c42a6f1386c3")
+	)
+	(label "P14"
+		(at 254.32 57.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "f997a492-298d-43cf-885c-98bfd63f1401")
+	)
+	(label "5V"
+		(at 105.94 49.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9ffb628-01f8-40b9-b685-3ee524cf9b77")
+	)
+	(label "5V"
+		(at 261.94 241.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbde37e4-815e-490a-9090-64d7caf20977")
+	)
+	(label "5V"
+		(at 261.94 145.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "fca9a7d7-28ca-4a26-850b-c433d10d5459")
+	)
+	(label "P8"
+		(at 20.32 57.4 180)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd8a4add-d706-4e3f-8877-f4c6582380f0")
+	)
+	(label "P21"
+		(at 191.56 89.4 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffaeb88e-4129-4f0e-8f89-73452e590cd7")
+	)
+	(label "5V"
+		(at 144.94 113.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffc1e7d3-5ff9-43f9-8d7b-bf7d5595d6bd")
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 300.94 217.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05c3085a-3e2c-4a61-8739-d604a642808e")
+		(property "Reference" "D56"
+			(at 306.94 212.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 300.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 300.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 300.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a32cf8d8-4885-49ee-b274-e7482b5fb852")
+		)
+		(pin "4"
+			(uuid "17098eb7-a386-46af-a1ad-a0b2cb527711")
+		)
+		(pin "3"
+			(uuid "478e62ab-d009-497e-99ef-8c1bea74792f")
+		)
+		(pin "2"
+			(uuid "f704070c-3ed7-4ff3-9e23-e35400f9eed1")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 261.94 121.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09e7630b-ac24-4ad1-bee6-eca27b06bc12")
+		(property "Reference" "D31"
+			(at 267.94 116.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 261.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 261.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "99755efc-32f0-4f0d-af32-1e1fd644f050")
+		)
+		(pin "1"
+			(uuid "c78d5eac-3978-47e1-b2a1-0e81abbd0154")
+		)
+		(pin "4"
+			(uuid "e53c585d-2f06-4ae4-aa71-edbf82785349")
+		)
+		(pin "3"
+			(uuid "e9c38009-dd4f-4e72-bc93-a266d4a2f04c")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 27.94 57.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a9c61f0-7408-406c-8e34-62d81c44c964")
+		(property "Reference" "D9"
+			(at 33.94 52.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 27.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 27.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "25e70361-7ade-427a-ada3-45903c535740")
+		)
+		(pin "3"
+			(uuid "0fd406ea-0cc7-48fd-bd06-2a7d7565eea1")
+		)
+		(pin "1"
+			(uuid "34c549bd-80ac-48b7-a018-b69deecabc6d")
+		)
+		(pin "4"
+			(uuid "d002c6ee-5b39-47a9-9ef3-8f1e0edf3f49")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 66.94 57.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e4174cc-60ea-40ba-b639-d8070c03c9b1")
+		(property "Reference" "D10"
+			(at 72.94 52.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 66.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 66.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d21159fd-9c9c-4cfe-a1e8-472c83a3e376")
+		)
+		(pin "1"
+			(uuid "f4d36da6-9fd0-4c61-8c22-379a45489545")
+		)
+		(pin "4"
+			(uuid "3dff1bc6-5aa0-4277-9c2c-6faf8d3c8b6a")
+		)
+		(pin "2"
+			(uuid "db532e81-8113-4520-812f-e141a89ca820")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 183.94 249.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b86ed31-2677-48b0-8af2-bcbc9bd41e56")
+		(property "Reference" "D61"
+			(at 189.94 244.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 183.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 183.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 183.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "091430ea-056f-44c5-93e8-04887b1cbe90")
+		)
+		(pin "1"
+			(uuid "0ffbe5f7-a521-4a8d-be99-caa67a42497b")
+		)
+		(pin "4"
+			(uuid "01a52da1-7805-44c2-b5c7-efa8a8b18552")
+		)
+		(pin "3"
+			(uuid "2f4434ad-c23b-4fb0-a58b-50e1ea28fb28")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 66.94 185.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e90ae79-6320-4093-bbbf-21dc260cfa32")
+		(property "Reference" "D42"
+			(at 72.94 180.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 66.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 66.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a3b10659-ca5d-4ff1-ac11-2babc97b8976")
+		)
+		(pin "4"
+			(uuid "3c933208-b7ae-4f1b-aeff-48c2c77d8845")
+		)
+		(pin "2"
+			(uuid "e1a2d125-860b-4139-95b0-82d6fcee8c8a")
+		)
+		(pin "1"
+			(uuid "936ed700-969e-4067-ab45-09dc4574b35d")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 183.94 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1eb36f73-e6f3-4cf6-9129-f4c45155f935")
+		(property "Reference" "D5"
+			(at 189.94 20.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 183.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 183.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 183.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "367b26ed-8d0f-45ca-9ff2-f924b06bcd12")
+		)
+		(pin "4"
+			(uuid "5308aadf-a37f-48e6-a08f-5dc667c53fe8")
+		)
+		(pin "2"
+			(uuid "340db9a9-761c-4ebf-be93-5284f6cab162")
+		)
+		(pin "3"
+			(uuid "28cef2e7-b66b-4d8c-806f-37fbf6c06156")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 300.94 57.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21499afb-0dd2-48f6-8796-ee409cf91e5d")
+		(property "Reference" "D16"
+			(at 306.94 52.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 300.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 300.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 300.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "1a631ff2-00ce-4b5a-a307-322c0cf7606f")
+		)
+		(pin "4"
+			(uuid "26f189ee-cb42-4ff9-aa23-5989f1c205cd")
+		)
+		(pin "1"
+			(uuid "03e648a2-25f2-4ff5-b00e-796fe46a33fa")
+		)
+		(pin "2"
+			(uuid "8076b76a-8f67-48af-97af-ca1e0a7af1fe")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 261.94 185.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "219a6c14-5df8-44c0-b4fa-308806629ca0")
+		(property "Reference" "D47"
+			(at 267.94 180.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 261.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 261.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cb6d4cfc-9dfe-4db0-8db8-f0a2ed96cfe3")
+		)
+		(pin "2"
+			(uuid "9cfa1a5d-dbf2-4afe-ae60-3821010b7ff5")
+		)
+		(pin "4"
+			(uuid "c14e67bc-f0ee-41e0-a66b-e079533bad38")
+		)
+		(pin "3"
+			(uuid "93f5cd51-08cd-45e4-a58c-438c64040e5a")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 183.94 89.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24ce8430-b616-487d-9333-a2ba72ecec8f")
+		(property "Reference" "D21"
+			(at 189.94 84.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 183.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 183.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 183.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ea91145d-febb-4fa8-a35d-8b6b64953e72")
+		)
+		(pin "1"
+			(uuid "2051bc2a-424f-417d-8028-13eae5e11dd2")
+		)
+		(pin "4"
+			(uuid "67ac38cf-f6e4-46e9-8589-70276dde79eb")
+		)
+		(pin "3"
+			(uuid "d461e14e-22cb-4c50-bf51-ee3fc9162ea8")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 105.94 57.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "315e369c-4f02-4e00-a362-9baf908c6800")
+		(property "Reference" "D11"
+			(at 111.94 52.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 105.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 105.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "687e7a97-944e-4745-bc63-2187bed46bd1")
+		)
+		(pin "4"
+			(uuid "f1286cc0-44e3-4169-b67c-659958c4eb62")
+		)
+		(pin "3"
+			(uuid "4d31933e-dd7a-438a-a8c6-5f1293ecd847")
+		)
+		(pin "1"
+			(uuid "d4af60c3-65f2-4e47-9506-730aa43037cd")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 300.94 121.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31b169ef-a8fc-4995-9ce0-d376218a54d6")
+		(property "Reference" "D32"
+			(at 306.94 116.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 300.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 300.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 300.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "444bd398-7c13-4477-bf3b-fe55f342fee0")
+		)
+		(pin "4"
+			(uuid "f33c5ef5-4226-478a-8f22-f97b89f33635")
+		)
+		(pin "3"
+			(uuid "ccba2637-7491-42b2-9afe-9d1f372241b2")
+		)
+		(pin "2"
+			(uuid "9e735a98-2ad9-4b9f-b454-1fea756e97ac")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 222.94 217.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "34d8c00d-3a72-4da2-9dcf-154b2989cce9")
+		(property "Reference" "D54"
+			(at 228.94 212.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 222.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 222.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d792603d-efff-4795-9848-e49b5da0e661")
+		)
+		(pin "4"
+			(uuid "74c1c7d2-cd90-4366-850c-9faf069303d5")
+		)
+		(pin "1"
+			(uuid "99e62900-3a44-42b1-b1bb-9860c575799d")
+		)
+		(pin "2"
+			(uuid "128da4af-37f7-4278-a258-060fb8596b6b")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 32.94 292.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "394a3c81-0256-4c14-8748-81e15581a285")
+		(property "Reference" "J1"
+			(at 38.94 287.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "J1"
+			(at 32.94 292.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 32.94 292.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 32.94 292.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 32.94 292.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7ab1c6f-3796-40f7-8466-91c759e7468c")
+		)
+		(pin "2"
+			(uuid "334e88d6-8617-4d73-b3ab-6b648dd870ec")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 261.94 249.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "40a4bc4d-f9bf-49d3-890d-8865f66c5acb")
+		(property "Reference" "D63"
+			(at 267.94 244.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 261.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 261.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8d98891e-dae4-4cab-9b0e-ca4106014b4e")
+		)
+		(pin "1"
+			(uuid "844d319c-6510-4329-b53b-e70a9bf218df")
+		)
+		(pin "4"
+			(uuid "89d06182-a56b-4334-a7ff-727234c854ab")
+		)
+		(pin "3"
+			(uuid "9981b6d7-0617-4a49-945f-1f885c290638")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 27.94 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4682d975-20e3-47f8-b37b-fd105b00706c")
+		(property "Reference" "D1"
+			(at 33.94 20.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 27.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 27.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "2ce4f0df-2781-4083-8522-d5d41233de62")
+		)
+		(pin "3"
+			(uuid "1109a0c7-264d-4eb0-ac61-3d722171f2de")
+		)
+		(pin "2"
+			(uuid "6221fe43-12f3-4e9f-b220-b7eea26c99b1")
+		)
+		(pin "1"
+			(uuid "722a438d-ce71-4dc4-a40f-228a553f01f0")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 222.94 185.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50c28f27-b09c-4455-9727-f06f6ee8864a")
+		(property "Reference" "D46"
+			(at 228.94 180.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 222.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 222.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4b82fcd7-4a16-4728-9f3f-cacd20c17d63")
+		)
+		(pin "3"
+			(uuid "3a8c2a34-2671-4d18-ab27-1a4e73ddc166")
+		)
+		(pin "4"
+			(uuid "f6d6c386-9d58-4b8b-a9d9-3c441c79eb00")
+		)
+		(pin "1"
+			(uuid "1a7cb29b-2681-4f08-a4d6-9bb48616eb82")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 66.94 249.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53d40870-3264-42c9-801d-730e288e23bc")
+		(property "Reference" "D58"
+			(at 72.94 244.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 66.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 66.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2620c70b-d181-46e0-ae3b-b07528c98fb3")
+		)
+		(pin "3"
+			(uuid "ebebedb8-8d81-49da-a077-911d627152e7")
+		)
+		(pin "1"
+			(uuid "44e6396f-7169-472a-a2b0-9f20d5d651e4")
+		)
+		(pin "4"
+			(uuid "e579383d-3456-482a-8252-406095f21738")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 66.94 89.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56233ad2-a595-4e95-a7c6-7378ee7543da")
+		(property "Reference" "D18"
+			(at 72.94 84.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 66.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 66.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c7ac6aac-aa7f-4b55-b8ba-e05d01991603")
+		)
+		(pin "4"
+			(uuid "f30dd286-9f3c-4c66-b4a9-4578097b75b4")
+		)
+		(pin "2"
+			(uuid "a54634b0-ce76-4aa7-b4c0-4f42eba141fa")
+		)
+		(pin "1"
+			(uuid "20b0cd4f-f6d6-480b-bbd8-d0ca1289ec12")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 261.94 217.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5674f112-0096-4e38-85c2-3ae5a70cc6da")
+		(property "Reference" "D55"
+			(at 267.94 212.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 261.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 261.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "8af295e3-1a2e-48db-af24-0aac4447d897")
+		)
+		(pin "2"
+			(uuid "9d9d724c-902b-415a-bc3a-f21baa24b3ef")
+		)
+		(pin "1"
+			(uuid "e0c0b662-fce0-4e61-bcce-bd387ac862dd")
+		)
+		(pin "3"
+			(uuid "b9cc32c7-40dd-4a25-91cf-a398bc2ddee5")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 66.94 121.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "576b352c-6256-4dbd-956b-f9b9c321ad17")
+		(property "Reference" "D26"
+			(at 72.94 116.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 66.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 66.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc2f65be-3d71-4312-b07d-468c93039808")
+		)
+		(pin "4"
+			(uuid "5d16deed-690a-4d04-b755-2e8fe1bda35d")
+		)
+		(pin "3"
+			(uuid "7d6857e4-4ff4-4731-a7c8-fc568c556f6f")
+		)
+		(pin "2"
+			(uuid "30a9af59-1aad-48ba-9ab4-bb44ac422f52")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 300.94 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "619437ce-beb3-4947-85fd-eecb02dc5a99")
+		(property "Reference" "D8"
+			(at 306.94 20.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 300.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 300.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 300.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "023a3a61-036f-4970-93fb-fe4d295cb9e0")
+		)
+		(pin "1"
+			(uuid "c32166e3-1094-4e44-8928-45a5167808b9")
+		)
+		(pin "4"
+			(uuid "9b60fbb5-3075-4ba1-870d-c09c7ada806f")
+		)
+		(pin "3"
+			(uuid "5a8ee82a-2b4f-4f85-84e5-492b57987bdf")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 27.94 217.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "638e7580-63a6-44fa-a851-ec6d4b91db28")
+		(property "Reference" "D49"
+			(at 33.94 212.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 27.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 27.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a07a6751-9ee2-4991-a2a4-4384019cd9ad")
+		)
+		(pin "1"
+			(uuid "8eb796e8-dece-44ca-8068-13878651a99d")
+		)
+		(pin "4"
+			(uuid "59b5b587-4266-4300-8631-f6f23a62f2c0")
+		)
+		(pin "2"
+			(uuid "478a940e-53aa-4b3a-8686-e7752756ba09")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 144.94 121.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6423362e-2308-482a-9412-2b69c29460c1")
+		(property "Reference" "D28"
+			(at 150.94 116.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 144.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 144.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "03e8880c-af9f-42c2-9e12-0a71f0a19794")
+		)
+		(pin "2"
+			(uuid "95f89468-9792-49e2-b8ca-0097764234eb")
+		)
+		(pin "1"
+			(uuid "844df5f0-3693-4ee7-bbee-e8ab04112c1a")
+		)
+		(pin "3"
+			(uuid "d523efe9-8330-486d-befc-221de1fceebd")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 222.94 153.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6dd428a9-14d7-4420-af49-19605ec5546c")
+		(property "Reference" "D38"
+			(at 228.94 148.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 222.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 222.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3c7c24fa-15d2-450d-a26e-6d907212f4b3")
+		)
+		(pin "4"
+			(uuid "5cd989a1-a94c-499a-883b-fcb6187cff70")
+		)
+		(pin "1"
+			(uuid "b0e28f61-3e03-4731-9424-3ddae6a9a8ec")
+		)
+		(pin "3"
+			(uuid "6dbfe330-ce13-4c25-9742-8bbea6f4809f")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 152.94 292.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f48d1da-7221-44d7-bd30-5e7658189ae1")
+		(property "Reference" "J3"
+			(at 158.94 287.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "J3"
+			(at 152.94 292.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 152.94 292.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.94 292.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.94 292.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "46fcadb7-5dad-4d1a-8d29-7b00443021f4")
+		)
+		(pin "1"
+			(uuid "53af36ea-040a-4a9a-9872-975a56887789")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 144.94 57.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77355b73-0d36-4117-a58a-62ff6bf80c58")
+		(property "Reference" "D12"
+			(at 150.94 52.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 144.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 144.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2582c370-fa43-4643-935b-f342435f434f")
+		)
+		(pin "1"
+			(uuid "a53547c8-c019-4523-bb60-ef2ad6c06a01")
+		)
+		(pin "3"
+			(uuid "10993495-782c-49ba-9489-965aa9a78607")
+		)
+		(pin "4"
+			(uuid "9c8a4d6f-8c0a-4d2c-aec2-e136e01f4b38")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 105.94 121.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7884380c-c701-4670-a43e-6d586cdcacdc")
+		(property "Reference" "D27"
+			(at 111.94 116.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 105.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 105.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "162737e0-9e51-49ea-8375-7b4b78daaba9")
+		)
+		(pin "2"
+			(uuid "64d4ea43-dd8b-4299-87ac-11deb64ebfc2")
+		)
+		(pin "4"
+			(uuid "f05cf166-89c9-4f1d-a0c4-7384e0746ec9")
+		)
+		(pin "1"
+			(uuid "3edd154d-35d5-4e40-85a8-2a879d097465")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 27.94 185.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "790c050e-64fd-4b9a-b48a-e6b450410291")
+		(property "Reference" "D41"
+			(at 33.94 180.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 27.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 27.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d0225e81-3b5a-4a1e-a2ae-2f82f151c714")
+		)
+		(pin "3"
+			(uuid "c9239a1c-3d12-430c-a72e-2759a722a03b")
+		)
+		(pin "4"
+			(uuid "e0f08f84-9fc8-4f03-9ebc-c383c39b256a")
+		)
+		(pin "2"
+			(uuid "3d1db526-7e72-4d2e-9078-685ebd924fe4")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 92.94 292.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "894590ea-56e0-4b06-a026-254cc995d82a")
+		(property "Reference" "J2"
+			(at 98.94 287.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "J2"
+			(at 92.94 292.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 92.94 292.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.94 292.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 92.94 292.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "468907b3-3295-486d-aa4d-7c48c9c238c9")
+		)
+		(pin "2"
+			(uuid "72653fd9-13cd-4a6b-8c39-a52b99c91d1c")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 183.94 217.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c811995-5b21-47b6-af90-038bd05aa3e7")
+		(property "Reference" "D53"
+			(at 189.94 212.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 183.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 183.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 183.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "76b6349c-2645-41e5-a95c-544a4f438b27")
+		)
+		(pin "3"
+			(uuid "79007a76-ac6a-4cc3-b87d-50c41cb4f4e7")
+		)
+		(pin "2"
+			(uuid "9021d0ba-9115-4643-8fe3-911b64544375")
+		)
+		(pin "1"
+			(uuid "aab2346c-464e-427a-8712-136569ef2afc")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 261.94 89.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d7118d2-a4e7-4e03-922f-1c231211a649")
+		(property "Reference" "D23"
+			(at 267.94 84.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 261.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 261.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5104a4b5-f2c2-4965-97ac-10c3582d30d3")
+		)
+		(pin "4"
+			(uuid "f4b3f9d3-37e2-469a-96e4-0518a19d128f")
+		)
+		(pin "2"
+			(uuid "54943be4-a456-40c2-847e-1788baf31a04")
+		)
+		(pin "3"
+			(uuid "839833b5-da20-4463-87fd-e456f91e4e39")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 27.94 89.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8e9fe187-c486-4203-a681-bb38f2b3d125")
+		(property "Reference" "D17"
+			(at 33.94 84.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 27.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 27.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6787243d-8c8f-4bd3-953b-4dd5ee31c632")
+		)
+		(pin "3"
+			(uuid "66f054ad-85ef-48a9-80c7-8734884eb7bb")
+		)
+		(pin "4"
+			(uuid "802a7ca6-2a0b-46d2-a57c-bc0863a59345")
+		)
+		(pin "2"
+			(uuid "c1756d03-4536-4dcf-af54-d2228e64083a")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 105.94 89.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "965f513a-7ed0-4d85-954e-3f731f4eb17a")
+		(property "Reference" "D19"
+			(at 111.94 84.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 105.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 105.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4bbec4a7-5daa-4ec3-9908-24dd25745fec")
+		)
+		(pin "1"
+			(uuid "1977d4c3-e71a-4018-9416-0021aa20704a")
+		)
+		(pin "4"
+			(uuid "59066e1e-9f72-4eaa-99e8-c7562764ca35")
+		)
+		(pin "2"
+			(uuid "4609cd74-31de-4338-86cf-4a49192d4ca1")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 105.94 249.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0863428-60e7-48dc-b81c-bfbfd8b61845")
+		(property "Reference" "D59"
+			(at 111.94 244.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 105.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 105.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "894e3ef6-5d01-47aa-afbf-befe5d8e946b")
+		)
+		(pin "1"
+			(uuid "f5bea3ac-9377-4671-a779-5eede0804a12")
+		)
+		(pin "2"
+			(uuid "55623703-9e7b-40c0-ad93-52649946a7ee")
+		)
+		(pin "3"
+			(uuid "f65c9074-36bc-4fac-9818-6b69d52d30a1")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 27.94 249.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2aa4ef6-8696-44fc-b43c-f6c17448e9c5")
+		(property "Reference" "D57"
+			(at 33.94 244.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 27.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 27.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b78c1b2d-17cb-4d82-a48c-50e9e8262d54")
+		)
+		(pin "4"
+			(uuid "e7a874b9-c1d5-4364-85b0-83dcea9fff80")
+		)
+		(pin "3"
+			(uuid "f032a8c5-86c4-4ba5-be6b-6d6a26129a7c")
+		)
+		(pin "2"
+			(uuid "d54e65d2-a07c-49fb-a266-957558b7fe3c")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 144.94 153.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4e0750d-1163-47d9-ae1b-aea72559fc44")
+		(property "Reference" "D36"
+			(at 150.94 148.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 144.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 144.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2fa3f0c8-a614-4caa-ae9c-3b83b0891474")
+		)
+		(pin "4"
+			(uuid "a1d61e98-542d-4d6f-bdc6-4670a90f86d3")
+		)
+		(pin "1"
+			(uuid "8e7aff54-0e22-4ca3-9ef3-39c8ac808012")
+		)
+		(pin "3"
+			(uuid "492d4ca3-bdd6-407b-b06b-9d786fceed4e")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 105.94 153.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad4b0fdc-bb85-423c-b611-ac6ce0f3173a")
+		(property "Reference" "D35"
+			(at 111.94 148.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 105.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 105.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "d5a670f2-1ebe-478b-8229-3c77e65d11d0")
+		)
+		(pin "3"
+			(uuid "56ebdfeb-17d1-49a0-a657-58a44744b0bf")
+		)
+		(pin "2"
+			(uuid "11dbdb98-e80b-403a-8394-b44030584f9f")
+		)
+		(pin "1"
+			(uuid "a9ecc845-fc75-42f2-bd3c-1903e320119d")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 183.94 121.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b2077402-c826-494b-b799-0c06ae600a2c")
+		(property "Reference" "D29"
+			(at 189.94 116.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 183.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 183.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 183.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7720627c-f811-4ba0-bcf6-5c87fbb7c2b0")
+		)
+		(pin "4"
+			(uuid "5b458381-cd33-43c5-9c75-2705726bac08")
+		)
+		(pin "3"
+			(uuid "563d59fc-444a-4341-8326-8b1385f886e8")
+		)
+		(pin "1"
+			(uuid "acb948ff-db54-4562-9337-be809f6d049d")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 300.94 185.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b28c9be8-e928-466e-b40a-b43a96b0b110")
+		(property "Reference" "D48"
+			(at 306.94 180.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 300.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 300.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 300.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de6cadb5-e5e5-4c06-8ca1-ddc4be35818b")
+		)
+		(pin "2"
+			(uuid "b6e4b311-3739-4bce-a978-132f861c6c34")
+		)
+		(pin "3"
+			(uuid "80f625ff-8f08-4a15-b1d8-382e9907b7de")
+		)
+		(pin "4"
+			(uuid "d9428256-0b58-49ff-92f6-7ef3d996bfa7")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 27.94 153.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b318f046-e8f1-4b4a-8bc7-539908e49655")
+		(property "Reference" "D33"
+			(at 33.94 148.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 27.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 27.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "958822fe-0eec-44ba-8a17-9ec255e28e8e")
+		)
+		(pin "3"
+			(uuid "5dd1b745-5f85-4374-b812-c532f157ccf2")
+		)
+		(pin "1"
+			(uuid "222cb31f-f2cb-400c-9b1b-e30307371200")
+		)
+		(pin "2"
+			(uuid "5f2d3c92-ad47-49df-850e-c29e0869ef91")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 183.94 57.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b31ee25e-15cc-4e66-85b3-221b03b97df4")
+		(property "Reference" "D13"
+			(at 189.94 52.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 183.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 183.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 183.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23f71bf4-94b1-45c0-bbf7-6c996f37771b")
+		)
+		(pin "2"
+			(uuid "a632c3be-5452-4425-bc21-f431b09c6694")
+		)
+		(pin "3"
+			(uuid "dfcc9183-a147-428d-93c3-052b137a9fd5")
+		)
+		(pin "4"
+			(uuid "8a107b60-7062-40ea-b951-be466ba7fd2a")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 105.94 185.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b80c4160-22a9-48b9-9518-89bac125f340")
+		(property "Reference" "D43"
+			(at 111.94 180.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 105.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 105.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "51e3dce3-d131-4090-9e82-5693cb47f05a")
+		)
+		(pin "3"
+			(uuid "95042c0d-7eb3-4a39-be72-e77bb6ffb454")
+		)
+		(pin "1"
+			(uuid "8f0fac99-1e6a-4961-9d99-1bb80599872f")
+		)
+		(pin "4"
+			(uuid "95226727-82e6-4e30-bf9a-dadc1c586652")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 222.94 89.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba7906d1-b8f4-4380-99b0-3828c6903700")
+		(property "Reference" "D22"
+			(at 228.94 84.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 222.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 222.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "1caccb34-bfe7-48bd-8653-45870a719e48")
+		)
+		(pin "2"
+			(uuid "859c7a6e-9b2d-4a51-a2a0-46f470e45461")
+		)
+		(pin "1"
+			(uuid "4c34f089-46d7-41ae-b350-9acc68fe00a7")
+		)
+		(pin "3"
+			(uuid "cfd0674b-0532-4e14-b828-e9ad7f68682d")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 222.94 57.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfd94a21-5840-4535-992c-5e306aebc9aa")
+		(property "Reference" "D14"
+			(at 228.94 52.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 222.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 222.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "87d38969-898f-423d-98b7-2ff4b54dbb98")
+		)
+		(pin "2"
+			(uuid "4d20d1b1-aef2-4049-b2a3-22153544906a")
+		)
+		(pin "4"
+			(uuid "c02a2977-19b5-4f26-b4aa-13e52ec6b4a9")
+		)
+		(pin "1"
+			(uuid "7dfb1133-2a26-4815-9f62-88a2e70a161f")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 300.94 249.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c365fae6-fe64-4772-b52b-f96dba3b2325")
+		(property "Reference" "D64"
+			(at 306.94 244.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 300.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 300.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 300.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "9518e870-841d-40da-b8f0-0dc8f57eb3ce")
+		)
+		(pin "2"
+			(uuid "ff19a095-c7b1-4c58-8389-9f794b9498ea")
+		)
+		(pin "4"
+			(uuid "a2e52b9f-176f-4bd7-b177-6124b282ed83")
+		)
+		(pin "1"
+			(uuid "88b07463-ef55-409e-bb22-0d2525d1e522")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 261.94 57.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c42a0ea1-2a96-4f95-bb05-c91dfe3f310f")
+		(property "Reference" "D15"
+			(at 267.94 52.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 261.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 261.94 57.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.94 57.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e7c68a95-037c-41ae-be1c-6933092a40f2")
+		)
+		(pin "1"
+			(uuid "947a87c1-3e9a-42d9-8766-41902072625f")
+		)
+		(pin "3"
+			(uuid "290f1659-08a4-4da6-be5c-6041e899063f")
+		)
+		(pin "4"
+			(uuid "08c6be7f-d0bd-47c4-b87d-3e3094b285d0")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 66.94 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5114c92-dde5-4691-9bd5-fe8b1c3509f8")
+		(property "Reference" "D2"
+			(at 72.94 20.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 66.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 66.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "83d9ec57-df25-4b7b-a0f8-4f38c0fc9ce6")
+		)
+		(pin "4"
+			(uuid "e259545d-0745-4cf8-b842-fa8a1db341e2")
+		)
+		(pin "3"
+			(uuid "36eaae46-482c-4228-b36f-ad3648131d39")
+		)
+		(pin "1"
+			(uuid "1d94f21b-69cd-4815-aca1-acf03dbbb741")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 261.94 153.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cdaef483-2557-4f2d-bb2c-8c715abd4da2")
+		(property "Reference" "D39"
+			(at 267.94 148.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 261.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 261.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6d1c6d44-e05a-44f8-9484-d9f61c0cd20c")
+		)
+		(pin "4"
+			(uuid "e359d81b-120c-4f91-9c6c-52a863938716")
+		)
+		(pin "3"
+			(uuid "e322141f-3189-4201-b34f-41e569ec224d")
+		)
+		(pin "1"
+			(uuid "5dc1b669-4046-43dc-b3a6-303e48ebf0c8")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 144.94 89.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ceaf6530-e991-462f-afb3-467df0244570")
+		(property "Reference" "D20"
+			(at 150.94 84.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 144.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 144.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d863470a-8405-4982-9a68-f4699f488d5e")
+		)
+		(pin "2"
+			(uuid "0f6fd0d4-4efa-4ea2-93f3-26ea3febe55d")
+		)
+		(pin "1"
+			(uuid "f09d92e7-fe0e-408d-aa9f-ddd8b47476ec")
+		)
+		(pin "4"
+			(uuid "8932ae46-5a73-48ef-9fdf-610c17aa4ffc")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 300.94 89.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d17e4d42-3459-4817-817d-16febe4589d7")
+		(property "Reference" "D24"
+			(at 306.94 84.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 300.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 300.94 89.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 300.94 89.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "818e140e-ac11-46ba-b741-621d10713444")
+		)
+		(pin "3"
+			(uuid "8acb43b0-d05e-4e85-90d3-86ee3dc800cf")
+		)
+		(pin "2"
+			(uuid "53b3d700-bca5-409f-81c8-818cd4ceac32")
+		)
+		(pin "4"
+			(uuid "a03840fb-5176-45c3-ab2a-a48b9b2e65a6")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 105.94 217.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d2248efe-358b-4e41-a621-6f1b54be1467")
+		(property "Reference" "D51"
+			(at 111.94 212.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 105.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 105.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "accd8279-6b42-45ac-95f7-37c2f7e5a6a9")
+		)
+		(pin "2"
+			(uuid "4cb0a7d9-2b56-448f-bcbd-a99b314c7c07")
+		)
+		(pin "3"
+			(uuid "5b7566ef-89e6-4aa8-be1b-c0d2b3257086")
+		)
+		(pin "1"
+			(uuid "eeabda48-73af-4e0c-adc5-6661928c583e")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 27.94 121.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d5865e48-ea0a-496d-bcb5-fa168ddef1f0")
+		(property "Reference" "D25"
+			(at 33.94 116.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 27.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 27.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ac302e52-6948-42d5-a2df-d0ed8e5b7f9e")
+		)
+		(pin "3"
+			(uuid "9e155f1d-58c9-4c52-98dc-cce4ef8d5eb4")
+		)
+		(pin "1"
+			(uuid "c74d4715-b34a-4e85-9be3-e28bb6fd7f2e")
+		)
+		(pin "4"
+			(uuid "88aeebe7-c305-4235-b3fb-ad6787e5f305")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 66.94 153.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d6f9f092-6988-4c40-b06b-61d41454fcc5")
+		(property "Reference" "D34"
+			(at 72.94 148.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 66.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 66.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "a3df283f-c002-40f2-9bbb-7084d0b25a46")
+		)
+		(pin "1"
+			(uuid "e79f7cb1-7426-42c4-bfc9-97fd7d0865c8")
+		)
+		(pin "2"
+			(uuid "77cc42d7-4074-4ae1-8ef8-79713b78bbbb")
+		)
+		(pin "3"
+			(uuid "9b45754f-daa2-418b-b387-15c493844fcb")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 144.94 217.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dba93430-6868-41c0-9fe1-662d457d511e")
+		(property "Reference" "D52"
+			(at 150.94 212.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 144.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 144.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8be222d-7fc0-4bc3-855e-288dbff2643a")
+		)
+		(pin "3"
+			(uuid "e909d01f-c3ad-450c-8860-d3de68ff2c6e")
+		)
+		(pin "2"
+			(uuid "fcf5f830-298c-452c-abc9-62658e44e716")
+		)
+		(pin "4"
+			(uuid "ee978901-f244-436e-819c-33c88956d507")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 261.94 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbbea2fa-e90d-44fe-9db2-44dac07ef70b")
+		(property "Reference" "D7"
+			(at 267.94 20.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 261.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 261.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 261.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "212f4631-548a-4d6a-90a8-42bedab6bb74")
+		)
+		(pin "2"
+			(uuid "b7cf97ae-e041-4795-8463-4cd1f4dc44e5")
+		)
+		(pin "1"
+			(uuid "b719a161-8ef9-4b90-beff-8ce1e654edc1")
+		)
+		(pin "3"
+			(uuid "74705392-0f60-4345-8215-e27d68ebe385")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 105.94 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de5ea34a-8529-403b-8886-136f96e29413")
+		(property "Reference" "D3"
+			(at 111.94 20.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 105.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 105.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 105.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "12adc8fe-2fbc-49aa-9ff7-41a3c681d286")
+		)
+		(pin "1"
+			(uuid "fde689b0-fa18-4b9e-905b-d8b8249ca665")
+		)
+		(pin "2"
+			(uuid "9ccae9a0-bfd3-4941-9119-5387b87a9409")
+		)
+		(pin "3"
+			(uuid "d03c3e48-2fae-4b8f-9c8a-92d65595f014")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 222.94 249.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2c4d142-02aa-4735-a732-f346f68f5173")
+		(property "Reference" "D62"
+			(at 228.94 244.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 222.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 222.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8ddcb40a-3c86-44d5-aae0-1986e72fe2f7")
+		)
+		(pin "1"
+			(uuid "fe90302d-0924-4bde-a666-e8c757979842")
+		)
+		(pin "3"
+			(uuid "894df76f-fff7-4692-90e0-00ddd4a4ac21")
+		)
+		(pin "4"
+			(uuid "0072f038-3574-48ab-abd0-2fe8f584a7f1")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 183.94 185.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e453f57c-e334-42c1-8652-629f7fca486a")
+		(property "Reference" "D45"
+			(at 189.94 180.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 183.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 183.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 183.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8d66b126-8aa4-4883-87ed-1d93601b7ed7")
+		)
+		(pin "1"
+			(uuid "d27272a7-dadd-4607-a38c-316ffb70d956")
+		)
+		(pin "4"
+			(uuid "a14d3cf2-e030-4238-a1c4-6c7295b7dd98")
+		)
+		(pin "3"
+			(uuid "cbb14006-aea4-4291-bf6c-71f21309f42c")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 144.94 185.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4c0f16f-8317-4411-a157-8260746ec110")
+		(property "Reference" "D44"
+			(at 150.94 180.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 144.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 144.94 185.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.94 185.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f7bb0323-a1f5-441b-8e85-fe474bf57c00")
+		)
+		(pin "4"
+			(uuid "be38a8b5-01cb-4b70-8ff1-4699a556cfef")
+		)
+		(pin "1"
+			(uuid "5330efc9-fa4d-427a-9931-7c34e3642bb5")
+		)
+		(pin "3"
+			(uuid "59da72b2-8415-40e1-85dd-af77af7d60d4")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 144.94 249.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e591b603-a4b7-47c5-91ce-0eef6ae3ef43")
+		(property "Reference" "D60"
+			(at 150.94 244.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 144.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 144.94 249.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.94 249.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d632d45-95cd-4025-ad4b-76449ffcbb4a")
+		)
+		(pin "2"
+			(uuid "706c320b-f13d-4ff5-b1c8-5d3b99acf590")
+		)
+		(pin "3"
+			(uuid "0216b265-5221-4f39-9172-4d6e21bda8f4")
+		)
+		(pin "4"
+			(uuid "108dd406-ce53-4a61-87f9-0d30e495d83f")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 183.94 153.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e76bc686-d211-414b-b681-13b890bd48df")
+		(property "Reference" "D37"
+			(at 189.94 148.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 183.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 183.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 183.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 183.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b30110f-6b06-4c36-a546-75b15821a2b1")
+		)
+		(pin "3"
+			(uuid "df5b84f8-cc47-46ff-b8c5-13f2af010f61")
+		)
+		(pin "2"
+			(uuid "f93aa3df-7a9c-4f28-8737-76fe54d1f0ca")
+		)
+		(pin "4"
+			(uuid "f924e8ff-acb2-4ea2-90c9-bea19a8e50a9")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 222.94 121.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec13e5fe-d4db-4f87-80ec-94af0decd9f8")
+		(property "Reference" "D30"
+			(at 228.94 116.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 222.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 222.94 121.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.94 121.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20d90b7b-d15f-4b5d-93ae-6acd30c10175")
+		)
+		(pin "1"
+			(uuid "c0ac45f2-f568-466a-ab94-77c87667d52d")
+		)
+		(pin "3"
+			(uuid "d774c4c0-19e9-4134-91ab-25a84360940e")
+		)
+		(pin "4"
+			(uuid "be9bcfe6-c0cd-4cb8-9123-89b2eed46dc1")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 222.94 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee16e0ae-5214-4f97-aab3-8a685c090e2c")
+		(property "Reference" "D6"
+			(at 228.94 20.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 222.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 222.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 222.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "723dfb29-de8a-4950-b426-b1333706e45f")
+		)
+		(pin "3"
+			(uuid "509b1b23-23c3-42c1-8ec0-146f965186a0")
+		)
+		(pin "2"
+			(uuid "8f299f93-b3d6-48db-967e-9096780da6e0")
+		)
+		(pin "4"
+			(uuid "98fb087e-7593-4297-82d6-d3d85e03a931")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 300.94 153.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2c3533a-d5da-4d44-a2fd-44a3fc164223")
+		(property "Reference" "D40"
+			(at 306.94 148.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 300.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 300.94 153.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 300.94 153.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "363e1eaf-1a02-423b-b5c3-2014076659fa")
+		)
+		(pin "1"
+			(uuid "e86ca61a-fc38-4a27-a1d6-d98483098c89")
+		)
+		(pin "2"
+			(uuid "60cc2129-ade1-44d4-a34a-b1f9c7e0f84f")
+		)
+		(pin "4"
+			(uuid "f9ef7e69-e4f6-464e-91db-486fafb3aac8")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 66.94 217.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fd78b76d-d471-4f99-8347-52aa9bb84fe7")
+		(property "Reference" "D50"
+			(at 72.94 212.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 66.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 66.94 217.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 66.94 217.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "d6eb2b6a-e760-4b6b-bc77-5403eb98734c")
+		)
+		(pin "1"
+			(uuid "e0d94b2a-267a-4f5d-aa00-045d927e7fce")
+		)
+		(pin "3"
+			(uuid "4a7b1de2-81e2-41e3-b330-7f7ec474349a")
+		)
+		(pin "2"
+			(uuid "6faa7a74-27cf-4c48-8874-da765ec7e34b")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B-2020")
+		(at 144.94 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffb05eb6-29d7-4c8b-9c48-5267b46b39a1")
+		(property "Reference" "D4"
+			(at 150.94 20.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 144.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm"
+			(at 144.94 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.94 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7fa1115f-cc10-4e3a-85ce-bff8030adc45")
+		)
+		(pin "1"
+			(uuid "bec0b648-7972-4bac-ba1d-ca40daf352a5")
+		)
+		(pin "3"
+			(uuid "f88ed5fa-e4ae-4fd3-bf46-beb86c7ed269")
+		)
+		(pin "4"
+			(uuid "ab761376-c799-40df-8966-7820a3dee7b5")
+		)
+		(instances
+			(project "WorldView Tile"
+				(path "/5dfdc3a0-d5f8-45e5-b175-8c5f74bb87ad"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
