@@ -2326,6 +2326,18 @@
 		(uuid "23fd4fc8-fffb-49c4-88da-675053c6aa54")
 	)
 	(rectangle
+		(start 99.06 49.53)
+		(end 153.67 134.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "924b60b4-083f-4f19-ad1d-958187f11421")
+	)
+	(rectangle
 		(start 186.69 49.53)
 		(end 233.68 109.22)
 		(stroke
@@ -2372,7 +2384,7 @@
 		(uuid "27e08e5f-fefa-456a-bdf7-3ea2ec7d94c2")
 	)
 	(no_connect
-		(at 99.06 97.79)
+		(at 152.4 114.3)
 		(uuid "3c159621-2c4a-4817-95ab-f54caa6c567f")
 	)
 	(no_connect
@@ -2544,7 +2556,7 @@
 		(uuid "5925db49-5408-4a98-911a-ffdb737db4f5")
 	)
 	(label "IN4"
-		(at 53.34 72.39 180)
+		(at 106.68 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2564,7 +2576,7 @@
 		(uuid "8d1da4ab-d648-4558-a58f-c5fcc243a80b")
 	)
 	(label "IN1"
-		(at 53.34 64.77 180)
+		(at 106.68 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2574,7 +2586,7 @@
 		(uuid "93b063e2-d584-4d9e-bc59-e605851cfaef")
 	)
 	(label "ENC_A"
-		(at 53.34 77.47 180)
+		(at 106.68 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2634,7 +2646,7 @@
 		(uuid "bcb05271-ebbc-4a3d-a2d2-bfd06de0bd3f")
 	)
 	(label "IN3"
-		(at 53.34 69.85 180)
+		(at 106.68 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2644,7 +2656,7 @@
 		(uuid "bd15a56c-2331-4566-99f0-2a94f7dda6dc")
 	)
 	(label "ENC_B"
-		(at 53.34 80.01 180)
+		(at 106.68 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2654,7 +2666,7 @@
 		(uuid "c1991224-ebae-4671-a7df-c93340b5f03f")
 	)
 	(label "IN2"
-		(at 53.34 67.31 180)
+		(at 106.68 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2684,7 +2696,7 @@
 		(uuid "e6b72109-7eeb-4ffc-8adb-1abeacdc9734")
 	)
 	(label "IN5"
-		(at 53.34 74.93 180)
+		(at 106.68 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3085,7 +3097,7 @@
 	)
 	(symbol
 		(lib_id "MapParts:RaspberryPi_Pico_W")
-		(at 76.2 74.93 0)
+		(at 129.54 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3096,7 +3108,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b4d8444-5179-4951-8f56-1bdcbec9f427")
 		(property "Reference" "A1"
-			(at 78.3433 109.22 0)
+			(at 131.6833 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3107,7 +3119,7 @@
 			)
 		)
 		(property "Value" "RaspberryPi_Pico_W"
-			(at 78.3433 111.76 0)
+			(at 131.6833 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3118,7 +3130,7 @@
 			)
 		)
 		(property "Footprint" "Module:RaspberryPi_Pico_W_SMD_HandSolder"
-			(at 76.2 121.92 0)
+			(at 129.54 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3129,7 +3141,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/picow/pico-w-datasheet.pdf"
-			(at 76.2 124.46 0)
+			(at 129.54 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3140,7 +3152,7 @@
 			)
 		)
 		(property "Description" "Versatile and inexpensive wireless microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash, Infineon CYW43439 2.4GHz 802.11n wireless LAN; also supports Raspberry Pi Pico 2 W"
-			(at 76.2 127 0)
+			(at 129.54 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3888,7 +3900,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 110.49 0)
+		(at 129.54 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3899,7 +3911,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e5b6048-5339-4bec-aebc-7ef6a61bd311")
 		(property "Reference" "#PWR01"
-			(at 76.2 116.84 0)
+			(at 129.54 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3910,7 +3922,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 115.57 0)
+			(at 129.54 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3920,7 +3932,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 110.49 0)
+			(at 129.54 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3931,7 +3943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 110.49 0)
+			(at 129.54 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3942,7 +3954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 110.49 0)
+			(at 129.54 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4717,6 +4729,15 @@
 		(uuid "e7b03c19-fca2-48b4-8a25-15dfd466ff41")
 		(members "090318b1-1d3b-4044-a2fa-c8c4a6c83ed1" "0af179c7-07f9-4e95-b41c-ec0a9e3e73b3"
 			"b5cd3b56-7c7e-4385-ad99-e62bba92d9bc"
+		)
+	)
+	(group ""
+		(uuid "ec03e07c-a13d-4d14-b3cb-be01eacfa371")
+		(members "2b4d8444-5179-4951-8f56-1bdcbec9f427" "3c159621-2c4a-4817-95ab-f54caa6c567f"
+			"5c8a7094-fd77-4f07-abb1-7c4772dc3ead" "93b063e2-d584-4d9e-bc59-e605851cfaef"
+			"9a7547df-e63b-4acb-9702-aa8904902388" "9e5b6048-5339-4bec-aebc-7ef6a61bd311"
+			"bd15a56c-2331-4566-99f0-2a94f7dda6dc" "c1991224-ebae-4671-a7df-c93340b5f03f"
+			"d0394cda-bae1-41fe-ad83-313d1d50a971" "e712e80c-005f-48dd-9ad3-cab553f7dbcc"
 		)
 	)
 	(group ""

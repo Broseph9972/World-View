@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MapParts")(type "KiCad")(uri "${KIPRJMOD}/MapParts.kicad_sym")(options "")(descr "World View project symbols"))
+)
